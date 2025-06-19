@@ -25,19 +25,19 @@ This is a lightweight, responsive e-commerce web application that allows users t
    git clone https://github.com/your-username/e-commerce-web-app.git
    cd e-commerce-web-app
 
-# Create virtual environment
+2. **Create virtual environment**
 python -m venv env
 source env/bin/activate        # On Windows: env\Scripts\activate
 
-# Install dependencies
+3. **Install dependencies**
 pip install -r requirements.txt
 
-# Set up Stripe environment variables (create a .env file)
+4. # Set up Stripe environment variables (create a .env file)
 echo "STRIPE_PUBLIC_KEY=your_publishable_key" >> .env
 echo "STRIPE_SECRET_KEY=your_secret_key" >> .env
 
-# Apply migrations
+5.  Apply migrations
 python manage.py migrate
 
-# Run development server
+6. Run development server
 python manage.py runserver
