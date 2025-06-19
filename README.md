@@ -2,7 +2,7 @@
 
 This is a lightweight, responsive e-commerce web application that allows users to browse products, add them to a cart, and proceed to checkout with or without logging in. The app features a secure payment gateway using Stripe.
 
-## 🚀 Features
+## Features
 
 - Product catalog with images and pricing  
 - Add-to-cart and cart management  
@@ -11,14 +11,14 @@ This is a lightweight, responsive e-commerce web application that allows users t
 - Secure payment integration using Stripe  
 - Responsive UI styled with Bootstrap  
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap  
 - **Backend:** Python, Django  
 - **Database:** SQLite  
 - **Payment Gateway:** Stripe  
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
